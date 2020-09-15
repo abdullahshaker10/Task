@@ -14,9 +14,9 @@ Developers using this project should already have Python3 and pip3 installed in 
 Ensure you are working using your created virtual environment.
 
 To install all dependices execute this command in the root folder:
-
 ```bash
-pip3 install requirements.txt```
+pip3 install -r requirements.txt
+```
 
 To run the server, execute this command in the root folder:
 
