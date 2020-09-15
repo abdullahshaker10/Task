@@ -22,7 +22,7 @@ To run the server, execute this command in the root folder:
 
 ```bash
 python3 manage.py runserver
-```bash
+```
 
 
 ## API Reference
