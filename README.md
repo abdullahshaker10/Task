@@ -10,7 +10,7 @@ it is a python task for performing filtering on coffee and pods products using:
 - Django.
 - Django Rest Framework.
 - Django filters for filtering on fields.
-- MongoDB.
+- Djongo to connect to MongoDB.
 
 
 ## Getting Started
