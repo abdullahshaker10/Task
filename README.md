@@ -4,6 +4,15 @@ In this App we have tow producrs. coffe machines and coffe pods.
 We can list machines and pods.
 We can filter based on fields in machines and pods.
 
+# Motivations
+it is python task for performing filtering on cooffe and pods products using:
+
+- Django.
+- Django Rest Framework.
+- Django filters for filtering on filelds.
+- mongodb db.
+
+
 ## Getting Started
 ### Pre-requisites and Local Development
 
@@ -31,7 +40,6 @@ python3 manage.py runserver
 
 #### GET 'api/machines/'
 
-```$ curl -X GET https://localhost/machines```
    - Fetches all machines as objects.  
    - Request Arguments: None.
    - Return an array of coffe machines objects.
@@ -64,4 +72,44 @@ python3 manage.py runserver
        },
       ]
 ```
+#### GET 'api/pods/'
 
+   - Fetches all pods as objects.  
+   - Request Arguments: None.
+   - Return an array of coffe pods objects.
+   
+   ```
+   
+ [
+    {
+        "id": 1,
+        "product_type": "Small coffe pod",
+        "coffe_flavor": "Vanilla",
+        "pack_size": "1 dozen "
+    },
+    {
+        "id": 2,
+        "product_type": "Small coffe pod",
+        "coffe_flavor": "Vanilla",
+        "pack_size": "3 dozen "
+    },
+    {
+        "id": 3,
+        "product_type": "Small coffe pod",
+        "coffe_flavor": "Caramel",
+        "pack_size": "1 dozen "
+    },
+    {
+        "id": 4,
+        "product_type": "Small coffe pod",
+        "coffe_flavor": "psl",
+        "pack_size": "1 dozen "
+    },
+    {
+        "id": 5,
+        "product_type": "Small coffe pod",
+        "coffe_flavor": "psl",
+        "pack_size": "3 dozen "
+    },
+  ]
+   ```
