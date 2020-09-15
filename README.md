@@ -1,16 +1,16 @@
 # Coffe APP
 
-In this App we have tow producrs. coffe machines and coffe pods.
+In this App, we have tow products. coffee machines and coffee pods.
 We can list machines and pods.
 We can filter based on fields in machines and pods.
 
 # Motivations
-it is python task for performing filtering on cooffe and pods products using:
+it is a python task for performing filtering on coffee and pods products using:
 
 - Django.
 - Django Rest Framework.
-- Django filters for filtering on filelds.
-- mongodb db.
+- Django filters for filtering on fields.
+- MongoDB.
 
 
 ## Getting Started
@@ -22,7 +22,7 @@ Developers using this project should already have Python3 and pip3 installed in 
 
 Ensure you are working using your created virtual environment.
 
-To install all dependices execute this command in the root folder:
+To install all dependencies execute this command in the root folder:
 ```bash
 pip3 install -r requirements.txt
 ```
@@ -42,7 +42,7 @@ python3 manage.py runserver
 
    - Fetches all machines as objects.  
    - Request Arguments: None.
-   - Return an array of coffe machines objects.
+   - Return an array of coffee machines objects.
    
 ```
     [
@@ -76,7 +76,7 @@ python3 manage.py runserver
 
    - Fetches all pods as objects.  
    - Request Arguments: None.
-   - Return an array of coffe pods objects.
+   - Return an array of coffee pods objects.
    
    ```
    
